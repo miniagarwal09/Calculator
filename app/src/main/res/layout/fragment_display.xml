@@ -1,0 +1,31 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:ems="10"
+        android:id="@+id/input"
+        android:cursorVisible="true"
+        android:hint="@string/zero"
+        android:maxLength="20"
+        android:maxHeight="1dp"
+        android:textSize="30sp"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:id="@+id/result"
+        android:maxLength="30"
+        android:maxHeight="1dp"
+        android:editable="false"/>
+
+</LinearLayout>

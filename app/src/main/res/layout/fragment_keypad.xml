@@ -1,0 +1,288 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="false"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    tools:layout_centerHorizontal="false"
+    android:layout_centerHorizontal="false"
+    android:baselineAligned="false"
+    android:layout_centerInParent="false">
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="351dp"
+    android:rowCount="5"
+    android:columnCount="3"
+    android:layout_gravity="center_horizontal">
+
+    <Button
+        android:text="@string/_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:elevation="7dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+
+
+    <Button
+        android:text="@string/_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+
+
+    <Button
+        android:text="@string/_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_rowWeight="1"
+        tools:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+
+    <Button
+        android:text="@string/decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button."
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button0"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:onClick="input"
+        android:background="@drawable/button_shape"
+        android:fadingEdge="horizontal|vertical" />
+
+    <Button
+        android:text="@string/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonequal"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:elevation="7dp"
+        android:background="@drawable/button_shape"
+        android:onClick="output"/>
+    <!--Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttondel"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/del"
+        android:elevation="7dp"
+        android:background="@color/colorPrimary" /-->
+
+
+</GridLayout>
+
+
+
+    <GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="351dp"
+        android:layout_gravity="center_horizontal">
+
+
+    <Button
+        android:text="@string/plus"
+        android:layout_width="wrap_content"
+
+        android:id="@+id/buttonplus"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:elevation="10dp"
+        android:layout_rowWeight="1"
+        android:onClick="operator" />
+    <Button
+        android:text="@string/sub"
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonsub"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:elevation="10dp"
+        android:layout_rowWeight="1"
+        android:onClick="operator" />
+    <Button
+        android:text="@string/mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonmul"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:elevation="10dp"
+        android:layout_rowWeight="1"
+        android:onClick="operator" />
+
+    <Button
+        android:text="@string/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttondiv"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:elevation="10dp"
+        android:layout_rowWeight="1"
+        android:onClick="operator" />
+    <Button
+        android:text="@string/pow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonpow"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:elevation="10dp"
+        android:layout_rowWeight="1"
+        android:onClick="operator"/>
+        <Button
+            android:text="@string/clear"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/buttonclear"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:elevation="10dp"
+            android:layout_rowWeight="1"
+            android:onClick="clear" />
+    </GridLayout>
+
+</LinearLayout>
